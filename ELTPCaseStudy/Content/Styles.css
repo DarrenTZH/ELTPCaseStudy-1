@@ -54,7 +54,8 @@ textarea {
 
 /*Buttons*/
 .active {
-    color: yellow ActiveBorder;
+    color: yellow;
+    
 }
 
 
@@ -120,10 +121,61 @@ img.AdminMovies {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 30px;
     background-color: white;
 }
 
 #BlankHeight {
     height: 60px;
+}
+
+.ContactContainer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid #e9ecef;
+    border-radius: 12px;
+}
+
+.AboutContainer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid grey;
+    border-radius: 12px;
+}
+
+.Container-Padding {
+    padding-top: 10px;
+}
+
+.ContactContainer {
+    margin-top: 10px;
+}
+
+.CP-Padding {
+    padding-top: 120px;
+}
+
+.CPButton {
+    width: 70%;
+    margin-top: 15px;
+}
+
+.RegisterContainer {
+    padding-top: 10px;
+    padding-left: 130px;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+}
+
+.RegisterButton {
+    width: 70%;
+}
+
+.LabelReg {
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.LoginLink {
+    margin-bottom: 0rem;
 }
